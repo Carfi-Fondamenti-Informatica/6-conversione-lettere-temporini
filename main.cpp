@@ -5,10 +5,10 @@ using namespace std;
 
 int main() {
 
-    char q, lettera = 0;
-    cin >> q;
+    char x, lettera = 0;
+    cin >> x;
 
-    if ( conversionecarattere(q, lettera) == true ){
+    if ( conversionecarattere(x, lettera) == true ){
         cout << lettera << endl;
     }else{
         cout << "errore" << endl;
