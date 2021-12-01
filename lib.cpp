@@ -10,7 +10,7 @@ int conversionecarattere(char c, char &risultato){
             risultato = c +32;
         }
         if(c >= 'a' && c <= 'z'){
-            rissultato= c -32;
+            risultato= c -32;
         }
 
     }else{
